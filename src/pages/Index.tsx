@@ -17,13 +17,11 @@ const Index = () => {
             title="Skills I Can Teach"
             subtitle="Add skills you're ready to share with others"
             variant="offer"
-            initialSkills={["JavaScript", "Guitar", "Photography"]}
           />
           <SkillManager
             title="Skills I Want to Learn"
             subtitle="What would you like to pick up from peers?"
             variant="want"
-            initialSkills={["Figma", "Spanish"]}
           />
         </div>
         <SkillCategories />
