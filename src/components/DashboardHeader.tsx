@@ -38,11 +38,13 @@ const DashboardHeader = () => {
                 <Bell className="h-5 w-5 text-muted-foreground" />
                 <span className="absolute right-1.5 top-1.5 h-2 w-2 rounded-full bg-accent" />
               </Button>
-              <Avatar className="h-9 w-9 border-2 border-primary/20">
-                <AvatarFallback className="bg-primary/10 text-primary font-display font-semibold text-sm">
-                  {initials}
-                </AvatarFallback>
-              </Avatar>
+              <button onClick={() => navigate("/profile")} className="rounded-full">
+                <Avatar className="h-9 w-9 border-2 border-primary/20 cursor-pointer hover:border-primary/40 transition-colors">
+                  <AvatarFallback className="bg-primary/10 text-primary font-display font-semibold text-sm">
+                    {initials}
+                  </AvatarFallback>
+                </Avatar>
+              </button>
               <Button variant="ghost" size="sm" onClick={signOut} className="text-xs text-muted-foreground">
                 <LogOut className="h-4 w-4 mr-1" /> Sign out
               </Button>
