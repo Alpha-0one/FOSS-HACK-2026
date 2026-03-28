@@ -63,9 +63,9 @@ const Auth = () => {
         <div className="text-center space-y-2">
           <div className="flex items-center justify-center gap-2">
             <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary">
-              <span className="font-display text-xl font-bold text-primary-foreground">S</span>
+              <span className="font-display text-xl font-bold text-primary-foreground">L</span>
             </div>
-            <h1 className="font-display text-2xl font-bold text-foreground">SkillSwap</h1>
+            <h1 className="font-display text-2xl font-bold text-foreground">LearnLoop</h1>
           </div>
           <p className="text-muted-foreground text-sm">
             {isSignUp ? "Create an account to start trading skills" : "Welcome back! Sign in to continue"}
