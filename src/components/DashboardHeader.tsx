@@ -19,9 +19,9 @@ const DashboardHeader = () => {
       <div className="mx-auto flex max-w-7xl items-center justify-between">
         <div className="flex items-center gap-3">
           <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-primary">
-            <span className="font-display text-lg font-bold text-primary-foreground">S</span>
+            <span className="font-display text-lg font-bold text-primary-foreground">L</span>
           </div>
-          <h1 className="font-display text-xl font-bold text-foreground">SkillSwap</h1>
+          <h1 className="font-display text-xl font-bold text-foreground">LearnLoop</h1>
         </div>
 
         <div className="hidden md:flex items-center gap-2 flex-1 max-w-md mx-8">
